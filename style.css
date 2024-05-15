@@ -39,3 +39,29 @@
     padding: 1rem;
     box-sizing: border-box;
 }
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.accordion-header {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem; 
+}
+
+.open-close {
+    position: relative;
+}
+
+#open-icon {
+    position: absolute;
+    z-index: 2;
+}
+
+#close-icon {
+    position: absolute;
+    z-index: 1;
+}
