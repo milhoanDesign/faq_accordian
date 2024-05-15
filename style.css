@@ -59,6 +59,8 @@
 #open-icon {
     position: absolute;
     z-index: 2;
+    width: 2rem;
+    height: 2rem;
 }
 
 #close-icon {
